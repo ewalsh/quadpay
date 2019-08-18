@@ -284,7 +284,7 @@ summary(lm(IsUnpaid~emp+qp1+ap+est+customer_credit_score+customer_age,data=Join1
 GLMmod <- glm(IsUnpaid~emp+qp1+ap+est+customer_credit_score+customer_age,family=binomial(link='logit'),data=Join1)
 summary(GLMmod)
 # Census API calls
-CensusAPIkey <- "8dadaedad2b940dd8ffff397507286b479540d00"
+CensusAPIkey <- # Enter Key Here
 WebRoot <- "https://api.census.gov/data/2012/ewks?get="
 Var <- "RCPTOT"
 Link1 <- ",OPTAX&for="
