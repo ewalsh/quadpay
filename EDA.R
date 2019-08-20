@@ -395,7 +395,7 @@ ggplot(AUCdata,aes(y=True.Positive.Rate,x=False.Positive.Rate)) +
 dev.off()
 
 # Census API calls
-CensusAPIkey <- "8dadaedad2b940dd8ffff397507286b479540d00"
+CensusAPIkey <- "your key here"
 WebRoot <- "https://api.census.gov/data/2012/ewks?get="
 Var <- "RCPTOT"
 Link1 <- ",OPTAX&for="
