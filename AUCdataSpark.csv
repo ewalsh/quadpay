@@ -1,0 +1,7 @@
+"","True.Positive.Rate","False.Positive.Rate","type"
+"1",0,0,"Random Forest"
+"2",1,0,"Random Forest"
+"3",1,1,"Random Forest"
+"4",0,0,"Gradient Boosted Tree"
+"5",1,0,"Gradient Boosted Tree"
+"6",1,1,"Gradient Boosted Tree"
